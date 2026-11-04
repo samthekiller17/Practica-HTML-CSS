@@ -1,0 +1,37 @@
+:root {
+    --color-crema: #FAF6EF;
+    --color-azul-noche: #14213D;
+    --color-verde-ruta: #1E7A4F;
+    --color-naranja-pedal: #F39A2B;
+
+    --fuente-titulos: "Montserrat", Arial, Helvetica, sans-serif;
+
+    --espacio-s: 1rem;
+    --espacio-m: 1.5rem;
+}
+
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--color-azul-noche);
+    background-color: var(--color-crema);
+    font-family: var(--fuente-titulos);
+}
+
+#menu a.activo{
+    color: var(--color-azul-noche);
+    font-weight: 700;
+}
+
+/*.activo {
+    color: green;
+    font-weight: 700;
+}*/
+
+#servicios {
+    width: 20rem;
+    padding: 1.5rem;
+    border: 2px solid var(--color-azul-noche);
+}
